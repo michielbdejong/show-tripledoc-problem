@@ -1,5 +1,5 @@
 {
-  "name": "ledgerloops-boilerplate",
+  "name": "michielbdejong-show-tripledoc-problem",
   "version": "2.5.0",
   "description": "Basic build environment for reference",
   "main": "./lib/index.js",
@@ -21,14 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ledgerloops/boilerplate.git"
+    "url": "git+https://github.com/michielbdejong/show-tripledoc-problem.git"
   },
   "author": "Michiel B. de Jong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ledgerloops/boilerplate/issues"
+    "url": "https://github.com/michielbdejong/show-tripledoc-problem/issues"
   },
-  "homepage": "https://github.com/ledgerloops/boilerplate#readme",
+  "homepage": "https://github.com/michielbdejong/show-tripledoc-problem#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.7",
@@ -52,5 +52,8 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
+  },
+  "dependencies": {
+    "tripledoc": "^4.3.0"
   }
 }
